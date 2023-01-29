@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="MobileArts.api.Controllers.CountryController" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controllers\CountryController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_countryService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MobileArts.api.Controllers.CityController" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAIA=</HashCode>
+      <FileName>Controllers\CityController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_cityService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MobileArts.api.Controllers.StateController" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controllers\StateController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_stateService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MobileArts.api.Domain.Models.Country" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAQAAAAAAAAAQAQAAAAUAAAhBAAABAAAAAA=</HashCode>
+      <FileName>Domain\Models\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileArts.api.Domain.Models.City" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABYEQAAAAAAAAIQAQAAAAUIAAgBAAABAAAAAA=</HashCode>
+      <FileName>Domain\Models\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileArts.api.Domain.Models.State" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQEQAAAAAAAAIQAQAAAIUIAAgBAAAAAEAAAA=</HashCode>
+      <FileName>Domain\Models\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dentrroper.Mobile.api.Persistence.Repositories.BaseRepository" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileArts.api.Persistence.Repositories.CityRepository" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Persistence\Repositories\CityRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileArts.api.Persistence.Repositories.CountryRepository" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Persistence\Repositories\CountryRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileArts.api.Persistence.Repositories.StateRepository" Collapsed="true">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Persistence\Repositories\StateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.Controller" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileArts.api.Services.CityServices" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="2.312" />
+        <Point X="10.75" Y="2.894" />
+        <Point X="13" Y="2.894" />
+        <Point X="13" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAACAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Services\CityServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_cityRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileArts.api.Services.CountryServices" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="2.312" />
+        <Point X="10.75" Y="2.612" />
+        <Point X="19.75" Y="2.612" />
+        <Point X="19.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAQAAAAAAAAIA=</HashCode>
+      <FileName>Services\CountryServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_countryRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileArts.api.Services.StateServices" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="2.312" />
+        <Point X="10.75" Y="2.785" />
+        <Point X="15.25" Y="2.785" />
+        <Point X="15.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="_stateReposiytory" Type="MobileArts.api.Domain.Repositories.IStateRepository">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.151" Y="0.165" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Services\StateServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_stateReposiytory" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MobileArts.api.Domain.Repositories.ICountryRepository" Collapsed="true">
+    <Position X="19" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Repositories\ICountryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Repositories.ICityRepository" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Repositories\ICityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Repositories.IStateRepository" Collapsed="true">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Repositories\IStateRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Services.ICountryService" Collapsed="true">
+    <Position X="7.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Services\ICountryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Services.ICityService" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Services\ICityService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Services.IStateService" Collapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Services\IStateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

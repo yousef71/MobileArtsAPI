@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="MobileArts.api.Controllers.UserController" Collapsed="true">
+    <Position X="1.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAAAEAAIAAAAAAAAAAAAEAAAAAAAAUAAAIAIA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_userService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MobileArts.api.Domain.Models.User" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAEGQCEgAAAAiIQYwBAAAMEAoiAQAAAAIAAgg=</HashCode>
+      <FileName>Domain\Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileArts.api.Services.UserServices" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAgAAEAAIAAAEAAAAAAAAEAAAAAAAAAAAAKAIA=</HashCode>
+      <FileName>Services\UserServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_userRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.138" />
+  </Class>
+  <Class Name="MobileArts.api.Persistence.Repositories.UserRepository" Collapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAAAAEAAIAAAEAAAAAAAAEAAAAAAAAAAAAKAIA=</HashCode>
+      <FileName>Persistence\Repositories\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_userPasswordService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.242" />
+  </Class>
+  <Class Name="Dentrroper.Mobile.api.Persistence.Repositories.BaseRepository" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.Controller" Collapsed="true">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MobileArts.api.Domain.Repositories.IUserRepository" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAAAAEAAIAAAEAAAAAAAAEAAAAAAAAAAAAKAIA=</HashCode>
+      <FileName>Domain\Repositories\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Services.IUserService" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAAAAEAAIAAAEAAAAAAAAEAAAAAAAAAAAAKAIA=</HashCode>
+      <FileName>Domain\Services\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileArts.api.Domain.Services.IUserPasswordService" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAAAAAAAAIAAAAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Domain\Services\IUserPasswordService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
